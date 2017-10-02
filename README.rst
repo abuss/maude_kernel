@@ -4,19 +4,15 @@ This requires IPython 3.
 
 To install::
 
-    pip install IMaude
-    python -m imaude_kernel.install
+    pip install maude_kernel
+    python -m maude_kernel install
 
 To use it, run one of:
 
 .. code:: shell
 
     jupyter notebook
-    # In the notebook interface, select Bash from the 'New' menu
-    jupyter qtconsole --kernel bash
-    jupyter console --kernel bash
+    # In the notebook interface, select Maude from the 'New' menu
+    jupyter qtconsole --kernel maude
+    jupyter console --kernel maude
 
-For details of how this works, see the Jupyter docs on `wrapper kernels
-<http://jupyter-client.readthedocs.org/en/latest/wrapperkernels.html>`_, and
-Pexpect's docs on the `replwrap module
-<http://pexpect.readthedocs.org/en/latest/api/replwrap.html>`_
